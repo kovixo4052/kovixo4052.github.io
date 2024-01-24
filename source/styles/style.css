@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+}
+body{
+background-color: white;}
+
+.search {
+  display: flex;
+  background-color: rgb(143, 206, 231);
+  text-align: right;
+  justify-content: space-between;
+}
+.navbar{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+.conteiner
+{
+  margin: 0px;
+  padding: 0px;
+  margin: 20px;
+  margin-top: 50px;
+  display: flex;
+  background-color: rgb(231, 222, 222);
+  text-transform:initial;
+  font-size: 30px;
+  vertical-align: middle;
+  text-shadow: #368b96;
+  text-align: end;
+}
+
+/* content*/
+.main{
+  text-align: left;
+}
+.h1{
+  text-align: center;
+}
+.uppercase{
+  display: flex;
+  text-align: center;
+vertical-align: middle;
+}
+span{
+  font-style: italic;
+    font-size: 30px;
+    flex-direction: Row;
+    display: flex;
+    justify-content: center;
+}
+.conteiner>img {
+  max-width: 64px;
+  max-height: 64px;
+  text-align: center;
+}
+.p1{
+  display: flex;
+  margin-left: 300px;
+  text-transform:initial;
+  font-size: 24px;
+  background-color: rgba(128, 190, 253, 0);
+  color: black;
+  text-align:center;
+}
+.p2{
+  display: flex;
+  margin-left: 185px;
+  text-transform:initial;
+  font-size: 24px;
+  background-color: rgba(128, 190, 253, 0);
+  color: black;
+  text-align:center;
+}
+.p3{
+  display: flex;
+  margin-left: 140px;
+  text-transform:initial;
+  font-size: 24px;
+  background-color: rgba(128, 190, 253, 0);
+  color: black;
+  text-align:center;
+}
+.list-conteiner{
+  float: center;
+  text-align: center;
+  display:block;
+  border-style: solid;
+  border-width: 0.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+.list-conteiner2>p {
+  text-align: right;
+  font-weight: bold;
+ 
+}
+.list-conteiner>ol>li {
+  list-style-type: circle;
+}
+
+/* верзняя навигационная панель */
+
+.nav-cont{
+  display: flex;
+  justify-content:flex-start;
+  background-color:rgb(143, 206, 231);
+}
+.nav-cont>nav>ul{
+  display: flex;
+  list-style: none;
+  align-items:center;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-cont>nav>ul>li>a{
+display: block;
+padding: 10px;
+border-style: solid;
+border-width: 0.5px;
+}
+
+@media (max-width: 900px) {
+  .nav-cont {
+    flex-direction: column;
+  }
+} 

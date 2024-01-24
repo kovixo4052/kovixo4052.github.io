@@ -1,0 +1,82 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body{
+    
+    font-family: Michroma, serif;
+    background: radial-gradient(#22a9e2 0%, #9163ca 100%);
+}
+.navbar{
+   background-color: #22a9e2;
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+}
+
+.row{
+    border-radius: 10px;
+}
+.navbar-nav .nav-link.active {
+color:rgb(0, 0, 0);
+}
+
+.navbar-brand img{
+    max-width: 64px;
+}
+
+.navbar-nav .nav-link.active{
+    color:rgb(0, 0, 0)
+}
+
+.navbar-brand img{
+    max-width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(96, 235, 228);
+}
+
+.sidebar{
+    color: #000000;
+    background: linear-gradient(90deg, #c83fe4 0%, #ff75bf 100%);
+}
+
+.card{
+    background: linear-gradient(270deg, #c83fe4 0%, #ff75bf 100%);
+    color: black;
+}
+
+.card a{
+    text-decoration: none;
+    color:black;
+}
+
+.slide-text,
+.footer-text{
+    color: black;
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;          /* отключение нижних навигационных клавиш на главной странице в режиме мобильного телефона, чтобы не наслаивать текст на эти самые навигационные клавиши*/
+    }
+}
+
+.text-p{
+    text-decoration: none;
+    color:black;
+}
+
+footer {
+    background: linear-gradient(270deg, #c83fe4 0%, #ff75bf 100%);
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
